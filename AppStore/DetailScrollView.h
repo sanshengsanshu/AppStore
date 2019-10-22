@@ -1,5 +1,5 @@
 //
-//  MainTableViewCell.h
+//  DetailScrollView.h
 //  AppStore
 //
 //  Created by Apple on 2019/10/22.
@@ -10,10 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainTableViewCell : UITableViewCell
+@interface DetailScrollView : UIScrollView
+
 @property (nonatomic, strong) UIView *bgBackView;
-@property (nonatomic, strong) UIImageView *bgImageView;
-@property (nonatomic, strong) UIView *emptyView;
+@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) UITextView *textView;
 
 @end
 

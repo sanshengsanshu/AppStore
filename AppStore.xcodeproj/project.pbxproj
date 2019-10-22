@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D6EF1E235ED35000C65080 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6EF1D235ED35000C65080 /* DetailViewController.m */; };
+		18D6EF21235EDAD000C65080 /* DetailScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6EF20235EDAD000C65080 /* DetailScrollView.m */; };
 		18F48464235E912F007672A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48463235E912F007672A1 /* AppDelegate.m */; };
 		18F4846A235E912F007672A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48469235E912F007672A1 /* ViewController.m */; };
 		18F48470235E912F007672A1 /* AppStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F4846E235E912F007672A1 /* AppStore.xcdatamodeld */; };
@@ -17,7 +19,6 @@
 		18F4848D235E9133007672A1 /* AppStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4848C235E9133007672A1 /* AppStoreUITests.m */; };
 		18F4849C235E9330007672A1 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4849B235E9330007672A1 /* MainTableViewCell.m */; };
 		18F4849F235E9360007672A1 /* MainHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4849E235E9360007672A1 /* MainHeaderView.m */; };
-		18F484A2235E9394007672A1 /* MainAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F484A1235E9394007672A1 /* MainAnimationTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18D6EF1C235ED35000C65080 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		18D6EF1D235ED35000C65080 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		18D6EF1F235EDAD000C65080 /* DetailScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailScrollView.h; sourceTree = "<group>"; };
+		18D6EF20235EDAD000C65080 /* DetailScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailScrollView.m; sourceTree = "<group>"; };
 		18F4845F235E912F007672A1 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F48462235E912F007672A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F48463235E912F007672A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,8 +63,6 @@
 		18F4849B235E9330007672A1 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		18F4849D235E9360007672A1 /* MainHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHeaderView.h; sourceTree = "<group>"; };
 		18F4849E235E9360007672A1 /* MainHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHeaderView.m; sourceTree = "<group>"; };
-		18F484A0235E9394007672A1 /* MainAnimationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAnimationTransition.h; sourceTree = "<group>"; };
-		18F484A1235E9394007672A1 /* MainAnimationTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAnimationTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +121,10 @@
 				18F4849B235E9330007672A1 /* MainTableViewCell.m */,
 				18F4849D235E9360007672A1 /* MainHeaderView.h */,
 				18F4849E235E9360007672A1 /* MainHeaderView.m */,
-				18F484A0235E9394007672A1 /* MainAnimationTransition.h */,
-				18F484A1235E9394007672A1 /* MainAnimationTransition.m */,
+				18D6EF1C235ED35000C65080 /* DetailViewController.h */,
+				18D6EF1D235ED35000C65080 /* DetailViewController.m */,
+				18D6EF1F235EDAD000C65080 /* DetailScrollView.h */,
+				18D6EF20235EDAD000C65080 /* DetailScrollView.m */,
 				18F48471235E9133007672A1 /* Assets.xcassets */,
 				18F48473235E9133007672A1 /* LaunchScreen.storyboard */,
 				18F48476235E9133007672A1 /* Info.plist */,
@@ -279,10 +284,11 @@
 				18F4849F235E9360007672A1 /* MainHeaderView.m in Sources */,
 				18F48478235E9133007672A1 /* main.m in Sources */,
 				18F4846A235E912F007672A1 /* ViewController.m in Sources */,
+				18D6EF1E235ED35000C65080 /* DetailViewController.m in Sources */,
 				18F48464235E912F007672A1 /* AppDelegate.m in Sources */,
 				18F48470235E912F007672A1 /* AppStore.xcdatamodeld in Sources */,
 				18F4849C235E9330007672A1 /* MainTableViewCell.m in Sources */,
-				18F484A2235E9394007672A1 /* MainAnimationTransition.m in Sources */,
+				18D6EF21235EDAD000C65080 /* DetailScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MainHeaderView : UIView
+@property (nonatomic, strong) UILabel *dateLabel;
+@property (nonatomic, strong) UILabel *mainLabel;
+@property (nonatomic, strong) UIButton *iconButton;
+
 
 @end
 
